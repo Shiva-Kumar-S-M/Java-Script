@@ -134,24 +134,87 @@
 
 // -----for Each loops --------//
 
-let abc =[1,2,3,4,5];
-abc.forEach((val) =>{
-    console.log(val);
-});
+// let abc =[1,2,3,4,5];
+// abc.forEach((val) =>{
+//     console.log(val);
+// });
 
 
-let arr = [4,5,6];
-arr.forEach((val)=>
-{
-    console.log(val**2);
-});
+// let arr = [4,5,6];
+// arr.forEach((val)=>
+// {
+//     console.log(val**2);
+// });
 
-// ----------- Mapping -------------//
-let num =[10,20,30,40,50];
-let newArray = num.map((val)=>
-{
-    return val;
-});
-console.log(newArray);
+// // ----------- Mapping -------------//
+// let num =[10,20,30,40,50];
+// let newArray = num.map((val)=>
+// {
+//     return val;
+// });
+// console.log(newArray);
 
 
+// let old = [100,200,300,400,500,600,700];
+// let newsh = old.map((val)=>
+// {
+//     return val;
+// });
+
+// console.log(newsh);
+
+
+// --------filtering --------//  new array of elements that give true for condition/filter
+// let arr =[10,11,12,13,45,47,89];
+// let newarray = arr.filter((val)=>{
+//     return val %2 === 0;
+// });
+// console.log(newarray);
+
+
+
+// let number = [124,568,41,4563,153,524,124,515];
+// let even = number.filter((val)=>{
+//     return val %2 === 0;
+// });
+// console.log(even);
+
+// let n = prompt("Enter number of array");
+// let arr =[];
+// for (let i =0;i<n;i++){
+//     arr[i-1]=i;
+// }
+// console.log(arr);
+
+// let sum = arr.reduce((res,curr)=>{
+//     return res+curr;
+// });
+// console.log(sum);
+
+
+// let n = prompt("Enter number of Array elements");
+// let arr =[];
+// for(i=0;i<=n;i++){
+//     arr[i-1]=i;
+// }
+// console.log(arr);  
+// let prod = arr.reduce((res,curr)=>{
+//     return res*curr;
+// });
+// console.log(prod);
+
+
+let a = prompt("Enter a number of array elemnts");
+let arr=[];
+for (i=1;i<=a;i++){
+    arr[i]=i;
+};
+console.log(arr);
+ let sum= arr.reduce((res,curr)=>{
+    return res+curr;
+ });
+ console.log(sum);
+ let product = arr.reduce((res,curr)=>{
+    return res*curr;
+ });
+ console.log(product);
