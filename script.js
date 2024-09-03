@@ -23,10 +23,10 @@
 
 
 
-let x ;
-for (x = 0 ; x<10 ;x++){
-    console.log(x);
-}
+// let x ;
+// for (x = 0 ; x<10 ;x++){
+//     console.log(x);
+
 
 
 //1) how to copy references values
@@ -66,3 +66,36 @@ for (x = 0 ; x<10 ;x++){
 // else {
 //     console.log("You are kidoo");
 // }
+
+
+// Ternary operator 
+
+// condition ? true output : false output;
+
+
+// let age = 17;
+//  age === 17? console.log("Adult"): console.log("Kidoo");
+
+// --------- FUNCTIONS ------------//
+// syntax : function functionName(){
+//   // do dome work 
+
+// } functionName();
+
+
+function fun(){
+    console.log("Today collage is holiday on account of sunday");
+}
+fun();
+
+
+function sum (x,y){                   // parameters input
+    console.log(x+y);
+}
+sum (200,300);                        // arguments
+
+
+function importent(msg){
+    console.log(msg);
+}
+importent("I am going to get myself back with strong mindset");
