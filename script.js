@@ -83,19 +83,75 @@
 // } functionName();
 
 
-function fun(){
-    console.log("Today collage is holiday on account of sunday");
-}
-fun();
+// function fun(){
+//     console.log("Today collage is holiday on account of sunday");
+// }
+// fun();
 
 
-function sum (x,y){                   // parameters input
-    console.log(x+y);
-}
-sum (200,300);                        // arguments
+// function sum (x,y){                   // parameters input
+//     console.log(x+y);
+// }
+// sum (200,300);                        // arguments
 
 
-function importent(msg){
-    console.log(msg);
-}
-importent("I am going to get myself back with strong mindset");
+// function importent(msg){
+//     console.log(msg);
+//     importent("I am going to get myself back with strong mindset");}
+
+
+
+// function sum (x,y){
+//     s = x+y;
+//     return s;
+// }
+
+// let val = sum(250,3500);
+// console.log(val);
+
+// // function parameter are like local variable of function -- block scope
+
+// -------- arrow function --------//
+
+// const arrowSum = (a,b)=>{
+//     console.log(a+b);
+// };
+// arrowSum(20,50); 
+
+
+
+// const arrowMulti = (a,b)=> {
+//     console.log(a*b);
+// };
+
+// arrowMulti(55,55);
+
+// const square = (a,b)=>{
+//     console.log(a**b);
+
+// };
+// square(9,2);
+
+// -----for Each loops --------//
+
+let abc =[1,2,3,4,5];
+abc.forEach((val) =>{
+    console.log(val);
+});
+
+
+let arr = [4,5,6];
+arr.forEach((val)=>
+{
+    console.log(val**2);
+});
+
+// ----------- Mapping -------------//
+let num =[10,20,30,40,50];
+let newArray = num.map((val)=>
+{
+    return val;
+});
+console.log(newArray);
+
+
