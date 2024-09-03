@@ -37,3 +37,32 @@ for (x = 0 ; x<10 ;x++){
 // 6) how are arrays are made behind the scenes 
 //7) why we can make negative indexes arrays 
 // 8) how to deleate prop
+
+
+
+//-----------------------practise -------------------------//
+
+// if else loop
+// let  mode = "dark";
+// let color;
+//  if (mode === "dark"){
+//     color = "black";
+
+//  } else {
+//     color = "white";
+//  }
+//  console.log(color);
+
+
+//else if statements 
+
+// let age = prompt("enter your age");
+// if (age === 18){
+//     console.log("you are teen ager");
+// }
+// else if (age>18){
+//     console.log("You are senoir");
+// }
+// else {
+//     console.log("You are kidoo");
+// }
