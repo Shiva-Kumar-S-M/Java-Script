@@ -6,3 +6,4 @@
 // 6) while loops
 // 7) function -- parameters & arguments 
 // 8)arrays -- push pop shift &unshift
+// hello how are you
