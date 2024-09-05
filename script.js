@@ -249,3 +249,24 @@
 // let para =document.getElementsByTagName("p");
 // console.log(para);
 // console.dir(para)
+
+
+//query selector 
+
+// let firstel = document.querySelector(".dom");  //first element
+// console.dir(firstel);
+
+
+// let allel = document.querySelectorAll(".dom");
+// console.dir(allel);
+
+// // properties 
+// 1) tagName = return tag for element NodeList
+// 2) innerText = return text content of elements and all its children
+// 3) innerHtml = returns the plain text or html contents in the element
+// 4)
+
+
+
+
+// document.querySelector("div").children 
