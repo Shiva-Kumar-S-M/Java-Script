@@ -225,6 +225,27 @@
 // console.log(heading);
 
 
-let elements = document.querySelectorAll(".dom");
-console.dir(elements);
+// let elements = document.querySelectorAll(".dom");
+// console.dir(elements);
 
+// alert("how are you")
+// console.dir(document.body.childNodes[1]);
+// console.log(document.body);
+
+// document.body.style.background="Yellow";
+
+//-----------DOM manipulation------------//
+//selecting with id
+// let heading = document.getElementById("heading");
+// console.log(heading);
+// console.dir(heading);
+
+// selecting with class
+// let same = document.getElementsByClassName("dom");
+// console.log(same);
+// console.dir(same);
+ 
+// selecting with tag
+// let para =document.getElementsByTagName("p");
+// console.log(para);
+// console.dir(para)
