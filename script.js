@@ -204,17 +204,27 @@
 // console.log(prod);
 
 
-let a = prompt("Enter a number of array elemnts");
-let arr=[];
-for (i=1;i<=a;i++){
-    arr[i]=i;
-};
-console.log(arr);
- let sum= arr.reduce((res,curr)=>{
-    return res+curr;
- });
- console.log(sum);
- let product = arr.reduce((res,curr)=>{
-    return res*curr;
- });
- console.log(product);
+// let a = prompt("Enter a number of array elemnts");
+// let arr=[];
+// for (i=1;i<=a;i++){
+//     arr[i]=i;
+// };
+// console.log(arr);
+//  let sum= arr.reduce((res,curr)=>{
+//     return res+curr;
+//  });
+//  console.log(sum);
+//  let product = arr.reduce((res,curr)=>{
+//     return res*curr;
+//  });
+//  console.log(product);
+
+
+// DOM OBJECT 
+// let heading = document.getElementById("heading");
+// console.log(heading);
+
+
+let elements = document.querySelectorAll(".dom");
+console.dir(elements);
+
