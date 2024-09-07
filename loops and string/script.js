@@ -114,7 +114,9 @@
 // let length = "0012345";
 // console.log(length.charAt(5));
 
-// practise
-let fullName = prompt("Enter your Name:");
-let userName = "@" + fullName + fullName.length;
-console.log(userName);
+// // practise
+// let fullName = prompt("Enter your Name:");
+// let userName = "@" + fullName + fullName.length;
+// console.log(userName); 
+console.log("shivu");
+console.log("uday");
